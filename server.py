@@ -6,7 +6,7 @@ app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
 userinformation = {"rx434@nyu.edu": "123456"}
 
-
+# This is a test
 @socketio.on('connect', namespace="/")
 def test_connect():
     print("One user connect to index")
